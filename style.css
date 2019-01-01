@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: url("../images/login-background.jpg") no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.all{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+    padding: 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.textbox{
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+input[type=text]{
+    width: 45.5%;
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 4px;
+    float: left;
+}
+input[type=email],input[type=password]{
+    width: 95%;
+    font-size: 16px;
+    padding: 4px;
+}
+button,input[type=submit]{
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: #d8f5f9;
+    color: black;
+    padding: 6px;
+    border: none;
+    width: 93%;
+}
+.social-media i{
+    float: left;
+    padding-left: 10px;
+}
+.facebook{
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 5px 10px;;
+    width: 45%;
+}
+.twitter{
+    background-color: #38A1F3;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    width: 45%;
+}
+.sign{
+    margin-top: 20px;
+}
+.extra{
+    text-decoration: none;
+    color: #d8f5f9;
+}
