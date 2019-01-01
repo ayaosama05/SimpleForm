@@ -1,2 +1,2 @@
 # SimpleForm
-design simple form using html and css
+design simple login form using html and css
